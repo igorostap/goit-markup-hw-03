@@ -33,13 +33,13 @@ img{
     max-width: 100%;
 }
 .container{
-    width: 1600px;
+    width: 1200px;
 }
 /*head navigation*/
 .header-cont {
     display: flex;
     align-items: center;
-    padding-left: 215px;
+    padding-left: 15px;
     border: 1px solid #ECECEC;
 }
 .header-link{
@@ -82,7 +82,7 @@ color:var(--logo-first-color);
 .address-nav{
     display: flex;
     margin-left: 331px;
-    margin-right: 215px;
+    /*margin-right: 215px;*/
     padding-left:0px;
 
    color:var(--title-text-color);
@@ -153,8 +153,8 @@ h2,h3{
 .subscribe{
     display: flex;
     width: 1170px;
-    margin-left: 215px;
-    margin-right: 215px;
+    /*margin-left: 215px;
+    margin-right: 215px;*/
     padding: 0px;
 }
 .subscribe .subscribe-tittle{
@@ -177,8 +177,8 @@ h2,h3{
 .work-list{
     display: flex;
      width: 1170px;
-     margin-left: 215px;
-     margin-right: 215px;
+     /*margin-left: 215px;
+     margin-right: 215px;*/
      padding: 0px;
 }
 .work-list .work-list-tittle{
@@ -190,6 +190,7 @@ h2,h3{
 /*our team*/
 .fields{
     padding-bottom: 94px;
+    padding-left:15px;
 }
 .tittle-people{
     font-weight: 500;
@@ -208,8 +209,8 @@ h2,h3{
     .team-tittle{
         display: flex;
         width: 1170px;
-        margin-left: 215px;
-        margin-right: 215px;
+       /* margin-left: 215px;
+        margin-right: 215px;*/
         padding: 0px;
     }
     .team-tittle .team-tittle-list{
@@ -232,7 +233,7 @@ h2,h3{
 .footer-fields{
     padding-top:60px;
     padding-bottom: 60px;
-    padding-left: 215px;
+    padding-left: 15px;
 
     background-color:#2F303A;
 }
@@ -265,8 +266,8 @@ h2,h3{
 /*Portfolio button*/
 .filter-button{
     display: flex;
-    padding-left: 480px;
-    padding-right: 480px;
+    padding-left: 280px;
+    padding-right: 280px;
     
 }
 .button-size{
@@ -311,8 +312,6 @@ h2,h3{
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 215px;
-    margin-right: 215px;
     padding-left: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
