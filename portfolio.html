@@ -17,7 +17,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
+   
    <!--header-->
    <header>
        <div class="header-cont">
@@ -39,18 +39,21 @@
       <main>  
         <!--groups of our projects-->
         <section class="portfolio-section">
-            <h1 class="not-eye">Наши проекты</h1>
-            <h2 class="not-eye">Подгрупы проектов</h2>
-            <ul class="list filter-button">
+            <h1 class="not-eye" hidden>Наши проекты</h1>
+            <h2 class="not-eye" hidden>Подгрупы проектов</h2>
+            <div class="container">
+                <ul class="list filter-button">
                 <li class="button-size"><button type="button" class="portfolio-button">Все</button></li>
                 <li class="button-size"><button type="button" class="portfolio-button">Веб-сайты</button></li>
                 <li class="button-size"><button type="button" class="portfolio-button">Приложения</button></li>
                 <li class="button-size"><button type="button" class="portfolio-button">Дизайн</button></li>
                 <li class="button-size"><button type="button" class="portfolio-button">Маркетинг</button></li>
             </ul>
-        
-            <h2 class="not-eye">Проекты</h2>
-            <ul class="list projects-list">
+            </div>
+            
+            <h2 class="not-eye" hidden>Проекты</h2>
+            <div class="container">
+                <ul class="list projects-list">
                 <li class="projects-items">
                     <a href=""><img src="./images/img (1) (1).jpg" alt="Ноутбук" width="370">
                    <div class="portfolio-border">
@@ -124,17 +127,20 @@
                         
                 </li>
             </ul>
+            </div>
+            
         </section>
       </main>
  <!--footer-->
     <footer class="footer-fields">
-       <a href="" class="logo">Web<span class=logo-third>Studio</span></a>
+       <div class="container">
+           <a href="" class="logo">Web<span class=logo-third>Studio</span></a>
         <address class="location">г. Киев, пр-т Леси Украинки, 26</address> 
       <ul class="list footer-address">
           <li class="footer-list"><a href="mailto:info@example.com" class="footer-adr">info@example.com</a></li>
           <li class="footer-list"><a href="tel:+380991111111"class="footer-adr">+38 099 111 11 11</a></li>
       </ul> 
+       </div>
    </footer>
-    </div>
 </body>
 </html>

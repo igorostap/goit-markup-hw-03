@@ -17,7 +17,7 @@
     <title>Homework</title>
 </head>
 <body>
-    <div class="container">
+   
    <!--header-->
    <header>
         <div class='header-cont'>
@@ -38,14 +38,15 @@
    <!--Main content-->
    <main>
        <!--head of pages-->
-       <section class="head-of-pages fields">
-            <h1 class="head-pages">Эффективные решения для вашего бизнеса</h1>
+       <section class="head-of-pages">
+               <h1 class="head-pages">Эффективные решения для вашего бизнеса</h1>
              <button type="button" class="button">Заказать услугу</button>
        </section>
        <!--our subscribe-->
-      <section class="fields">
-          <h2 class="tittle-list">Преимущества сотрудничества с нами</h2>
-          <ul class="list subscribe">
+      <section class="fields top-item">
+          <h2 class="tittle-list" hidden>Преимущества сотрудничества с нами</h2>
+          <div class="container">
+               <ul class="list subscribe">
               <li class="subscribe-tittle">
                   <h3 class="tittle">Внимание к деталям</h3>
                   <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -63,20 +64,26 @@
                   <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
               </li>
           </ul>
+          </div>
+         
       </section>
       <!--about our work-->
       <section class="fields">
            <h2 class="tittle-list">Чем мы занимаемся</h2>
-      <ul class="list work-list">
+           <div class="container">
+               <ul class="list work-list">
           <li class="work-list-tittle"><img class="team-img" src="./images/img.jpg" alt="человек за компьютером" width="370"></li>
           <li class="work-list-tittle"><img class="team-img" src="./images/img1.jpg" alt="компбютер и гаджеты" width="370"></li>
           <li class="work-list-tittle"><img class="team-img" src="./images/img2.jpg" alt="графика на пк" width="370"></li>
       </ul>
+           </div>
+      
       </section>
       <!--Our team-->
       <section class="fields">
           <h2 class="tittle-list">Наша команда</h2>
-          <ul class="list team-tittle">
+          <div class="container">
+              <ul class="list team-tittle">
               <li class="team-tittle-list">
                   <img class="team-img" src="./images/photo.jpg" alt="Дизайнер" width="270">
                   <h3 class="tittle-people">Игорь Демьяненко</h3>
@@ -98,18 +105,22 @@
                   <p class="profession">UI Designer</p>
               </li>
           </ul>
+          </div>
+          
       </section>
    </main>
    <!--footer-->
    <footer class="footer-fields">
-       <a href="" class="logo">Web<span class=logo-third>Studio</span></a>
+       <div class="container">
+           <a href="" class="logo">Web<span class=logo-third>Studio</span></a>
         <address class="location">г. Киев, пр-т Леси Украинки, 26</address> 
       <ul class="list footer-address">
           <li class="footer-list"><a href="mailto:info@example.com" class="footer-adr">info@example.com</a></li>
           <li class="footer-list"><a href="tel:+380991111111"class="footer-adr">+38 099 111 11 11</a></li>
       </ul> 
+       </div>
    </footer>
-   </div>
+  
 </body>
 </html>
 
